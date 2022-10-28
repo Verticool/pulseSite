@@ -19,6 +19,24 @@
         right: -66px
         left: auto
     .tns-item
+        position: relative
         img
             display: block
             margin: 0 auto
+            width: 100%
+    .tns-nav
+        position: absolute
+        text-align: center
+        left: 50%
+        transform: translateX(-50%)
+        button
+            height: 13px
+            width: 8px
+            background-color: #a5a5a5
+            border: none
+            margin-left: 5px
+            border-radius: 30%
+        .tns-nav-active
+            background-color: #000
+            transition: 0.5s all
+            

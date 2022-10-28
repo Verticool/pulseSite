@@ -1,0 +1,39 @@
+.footer
+    height: 630px
+    position: relative
+    &__info
+        position: absolute
+        top: 0
+        left: 50%
+        transform: translateX(-50%)
+        width: 460px
+        height: 270px
+        background: $main-color
+        padding: 50px 50px 50px 50px
+        box-shadow: 10px 11px 7px -10px rgba(0,0,0,0.2) inset
+    &__address
+        margin-bottom: 36px
+        font-weight: 500
+        font-size: 20px
+        line-height: 20px
+        text-align: center
+        color: #FFFFFF
+    &__phone
+        margin-bottom: 36px
+        font-weight: 700
+        font-size: 20px
+        line-height: 20px
+        display: block
+        text-align: center
+        color: #FFFFFF
+        &:hover
+            color: #fff
+    &__social
+        display: flex
+        justify-content: center
+        a
+            width: 53px
+            height: 52px
+            margin-right: 27px
+            &:nth-child(3)
+                margin-right: 0
